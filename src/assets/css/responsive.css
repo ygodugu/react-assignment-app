@@ -1,0 +1,25 @@
+@media (max-width: 768px) {
+    .navbar__toggle {
+        display: flex;
+    }
+
+    .navbar__menu {
+        display: none;
+    }
+
+    .offcanvas.show {
+        display: block;
+    }
+
+    .header-container {
+        max-width: 90%;
+    }
+
+    .first-card,
+    .second-card,
+    .third-card {
+        width: 70%;
+    }
+}
+
+@media (max-width: 768px) {}
